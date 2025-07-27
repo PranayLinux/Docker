@@ -4,7 +4,7 @@ This project demonstrates how to containerize a basic **Flask web application** 
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Python / Flask** – Web framework  
 - **Docker** – Containerization  
