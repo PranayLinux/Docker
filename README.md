@@ -2,7 +2,7 @@
 
 This project demonstrates how to containerize a basic **Flask web application** and deploy it on a **Kubernetes cluster**. The deployment is cloud-based (hosted on **Amazon EC2**) and accessible externally.
 
----
+
 
 ##  Tech Stack
 
