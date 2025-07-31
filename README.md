@@ -1,4 +1,4 @@
-# 📦 Flask App: Dockerized and Deployed on Kubernetes
+#  Flask App: Dockerized and Deployed on Kubernetes
 
 This project demonstrates how to containerize a basic **Flask web application** and deploy it on a **Kubernetes cluster**. The deployment is cloud-based (hosted on **Amazon EC2**) and accessible externally.
 
@@ -15,10 +15,11 @@ This project demonstrates how to containerize a basic **Flask web application** 
 
 ---
 
-
+for access
+http://<EC2-PUBLIC-IP>:30080
 ---
 
-## 🐳 Docker Instructions
+## Docker Instructions
 
 Build and run locally:
 
@@ -32,5 +33,4 @@ kubectl apply -f k8s/secret.yaml
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 
-for access
-http://<EC2-PUBLIC-IP>:30080
+
